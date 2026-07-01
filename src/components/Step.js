@@ -89,6 +89,7 @@ export default function Step(
         {
           currentStep > 1 && (
             <button
+              id='previousBtn'
               type='button'
               onClick={onPrevious}
             >Previous</button>
@@ -97,6 +98,7 @@ export default function Step(
         {
           currentStep < 3 && (
             <button
+              id='nextBtn'
               type='button'
               onClick={onNext}
               style={{ marginLeft: 'auto' }}
@@ -106,6 +108,7 @@ export default function Step(
         {
           currentStep === 3 && (
             <button
+              id='submitBtn'
               type='submit'
               style={{ marginLeft: 'auto' }}
             >
