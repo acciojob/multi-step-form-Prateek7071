@@ -8,7 +8,7 @@ export default function Step(
       case 1:
         return (
         <>
-        <div>
+        <div id='step1'>
             <h1>Custormer Details</h1>
             <label htmlFor='first_name'>First Name</label>
             <input
@@ -33,7 +33,7 @@ export default function Step(
       case 2:
         return (
         <>
-        <div>
+        <div id='step2'> 
             <h1>Car Details</h1>
             <label htmlFor='model'>Model</label>
             <input
@@ -57,7 +57,7 @@ export default function Step(
         case 3:
           return (
           <>
-          <div>
+          <div id='step3'>
               <h1>Payment Details</h1>
               <label htmlFor='card_info'>Credit Card Number</label>
               <input
