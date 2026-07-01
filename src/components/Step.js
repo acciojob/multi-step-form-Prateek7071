@@ -45,7 +45,7 @@ export default function Step(
             ></input>
             <label htmlFor='car_price'>Car Price</label>
             <input
-              type='text'
+              type='number'
               id="car_price"
               value={formData.car_price}
               onChange={onChange}

@@ -22,7 +22,7 @@ const App = () => {
     setCurrentStep(prev=>prev-1)
   }
   
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault()
     console.log(formData)
   }
